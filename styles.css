@@ -1,0 +1,140 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo img {
+    border-radius: 50%;
+}
+
+.navbar nav {
+    display: flex;
+}
+
+.navbar nav li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+    color: #f4b400;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 10%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about p {
+    text-align: justify;
+}
+
+#skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.main img {
+    width: 100px;
+    height: 100px;
+}
+
+.main h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.main p {
+    font-size: 14px;
+}
+
+/* Social Media Section */
+#socialmedia li {
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+}
+
+#socialmedia li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+#socialmedia li a:hover {
+    color: #f4b400;
+}
+
+/* Feedback Form */
+#feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#feedback input, 
+#feedback textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#feedback button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#feedback button:hover {
+    background-color: #f4b400;
+}
